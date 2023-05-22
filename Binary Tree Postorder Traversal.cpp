@@ -4,7 +4,7 @@ class Solution {
     vector<int> ans;
     postorder(root, ans);
     return ans;
-  }
+  };
 
  private:
   void postorder(TreeNode* root, vector<int>& ans) {
