@@ -15,4 +15,4 @@ class Solution {
     postorder(root->right, ans);
     ans.push_back(root->val);
   }
-};
+}
